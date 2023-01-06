@@ -9,6 +9,7 @@ specifiers:
   solid-js: ^1.6.8
   solid-start: ^0.2.11
   solid-start-node: ^0.2.11
+  solid-start-vercel: ^0.2.11
   solid-transition-group: ^0.0.12
   svgo: ^3.0.2
   typescript: ^4.9.4
@@ -29,6 +30,7 @@ devDependencies:
   esbuild: 0.14.54
   postcss: 8.4.20
   solid-start-node: 0.2.11_vuxjqlfqeurtfuwydw7vri252u
+  solid-start-vercel: 0.2.11_qdej6kpwnsmmjesp3ivsnvr5zu
   svgo: 3.0.2
   typescript: 4.9.4
   vite: 3.2.5_@types+node@18.11.18
@@ -2745,6 +2747,21 @@ packages:
       vite: 3.2.5_@types+node@18.11.18
     transitivePeerDependencies:
       - supports-color
+    dev: true
+
+  /solid-start-vercel/0.2.11_qdej6kpwnsmmjesp3ivsnvr5zu:
+    resolution: {integrity: sha512-UpaITA4SZ6nhWQoSqzCiWK135QOUEI3QKlAtx0JZIFXzSKnCuRt0amAT5l+dRGTnMc4NPLMRCJaQAjcX3Fq8rw==}
+    peerDependencies:
+      solid-start: '*'
+      vite: '*'
+    dependencies:
+      '@rollup/plugin-commonjs': 24.0.0_rollup@2.79.1
+      '@rollup/plugin-json': 6.0.0_rollup@2.79.1
+      '@rollup/plugin-node-resolve': 15.0.1_rollup@2.79.1
+      rollup: 2.79.1
+      solid-start: 0.2.11_vflho4jvlzo747qyj3lkbv6sci
+      terser: 5.16.1
+      vite: 3.2.5_@types+node@18.11.18
     dev: true
 
   /solid-start/0.2.11_vflho4jvlzo747qyj3lkbv6sci:
