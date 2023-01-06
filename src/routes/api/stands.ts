@@ -33,10 +33,8 @@ export async function GET(event: APIEvent) {
     const sor = statOrResponse(stat);
     if (sor instanceof Response) return sor;
 
-    predicate = { ...predicate, [stat]: sor };
+    predicate[stat] = sor;
   }
-
-  console.log(predicate);
 
   const foundStands = await findStands(predicate);
 

@@ -10,5 +10,8 @@ export default defineConfig(({ mode }) => {
       solid({ ssr: false, adapter: mode === 'production' ? vercel() : node() }),
       solidSvg({ defaultAsComponent: true }),
     ],
+    build: {
+      sourcemap: true,
+    },
   };
 });

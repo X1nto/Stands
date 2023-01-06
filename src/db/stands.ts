@@ -1,4 +1,6 @@
-import { promises } from 'fs';
+import standsDb from './stands.json';
+
+const stands = standsDb as Stand[];
 
 export const standStatValues = [
   'NONE',
@@ -70,18 +72,6 @@ export async function findStands({
   });
 }
 
-let stands: Stand[] | undefined;
-
 export async function getStands() {
-  if (stands === undefined) {
-    stands = await fetchStands();
-  }
-
   return stands;
-}
-
-async function fetchStands() {
-  const standsFile = await promises.readFile('public/data/stands.json');
-  const standsString = standsFile.toString();
-  return JSON.parse(standsString) as Stand[];
 }

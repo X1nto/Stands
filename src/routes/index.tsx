@@ -1,4 +1,4 @@
-import { For } from 'solid-js';
+import { For, Match, Switch } from 'solid-js';
 import {
   createRouteData,
   refetchRouteData,
@@ -126,35 +126,44 @@ export default function Home() {
         </div>
       </div>
       <div class={styles['stand-list']}>
-        <For
-          each={data()}
-          fallback={
+        <Switch>
+          <Match when={data.error}>
             <div class={styles['stand-list-empty']}>
-              <h1>Could not find stands with the selected filters.</h1>
+              <h1>Error loading the stands.</h1>
             </div>
-          }
-        >
-          {(stand) => (
-            <div class={styles['stand-card']}>
-              <h2>{stand.name}</h2>
-              <div class={styles['stand-card-stats']}>
-                <For each={dropdowns}>
-                  {(stat) => {
-                    const statValue = dropdownEntries.find(
-                      (e) => e.value === stand[stat.value]
-                    )?.label;
-                    return (
-                      <div class={styles['stand-card-stat']}>
-                        <b>{stat.label}: </b>
-                        <p>{statValue}</p>
-                      </div>
-                    );
-                  }}
-                </For>
-              </div>
-            </div>
-          )}
-        </For>
+          </Match>
+          <Match when={!data.loading}>
+            <For
+              each={data()}
+              fallback={
+                <div class={styles['stand-list-empty']}>
+                  <h1>Could not find stands with the selected filters.</h1>
+                </div>
+              }
+            >
+              {(stand) => (
+                <div class={styles['stand-card']}>
+                  <h2>{stand.name}</h2>
+                  <div class={styles['stand-card-stats']}>
+                    <For each={dropdowns}>
+                      {(stat) => {
+                        const statValue = dropdownEntries.find(
+                          (e) => e.value === stand[stat.value]
+                        )?.label;
+                        return (
+                          <div class={styles['stand-card-stat']}>
+                            <b>{stat.label}: </b>
+                            <p>{statValue}</p>
+                          </div>
+                        );
+                      }}
+                    </For>
+                  </div>
+                </div>
+              )}
+            </For>
+          </Match>
+        </Switch>
       </div>
     </main>
   );
