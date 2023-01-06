@@ -1,0 +1,67 @@
+.container {
+  display: inline-block;
+  position: relative;
+}
+
+.box {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  background-color: var(--surface);
+  padding: 12px;
+  border-radius: 12px;
+  align-items: end;
+  justify-content: space-between;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.box:hover {
+  border-radius: 16px;
+  background-color: var(--highlight);
+}
+
+.box[data-active='true'] {
+  background-color: var(--surface2);
+}
+
+.box > div {
+  display: flex;
+  gap: 5px;
+}
+
+.popup {
+  position: absolute;
+  background-color: var(--surface2);
+  z-index: 1;
+  margin-top: 5px;
+  width: 100%;
+  border-radius: 12px;
+}
+
+.popup > li {
+  appearance: none;
+  list-style: none;
+  color: var(--text);
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  cursor: pointer;
+  transition: all 0.3s;
+  border-radius: 12px;
+}
+
+.popup > li:hover {
+  background-color: var(--highlight);
+}
+
+img {
+  width: 24px;
+  height: 24px;
+  transition: all 0.3s;
+}
+
+.box[data-active='true'] img {
+  rotate: 180deg;
+}

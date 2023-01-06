@@ -1,0 +1,38 @@
+.appbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid var(--outline);
+  padding: 16px;
+}
+
+@media (min-width: 768px) {
+  .appbar {
+    padding-left: 48px;
+  }
+}
+
+.appbar > a {
+  text-decoration: none;
+}
+
+.navicon {
+  list-style: none;
+}
+
+.searchbar,
+.searchbar:focus {
+  border: none;
+  outline: none;
+  padding: 12px;
+  box-shadow: none;
+  border-radius: 24px;
+  background-color: var(--surface);
+  color: var(--text);
+  transition: all 0.3s;
+}
+
+.searchbar:focus {
+  background-color: var(--surface2);
+}

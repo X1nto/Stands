@@ -1,0 +1,1406 @@
+[
+  {
+    "name": "Anubis",
+    "power": "B",
+    "speed": "B",
+    "range": "E",
+    "stamina": "A",
+    "precision": "E",
+    "development": "C"
+  },
+  {
+    "name": "Atum",
+    "power": "D",
+    "speed": "C",
+    "range": "D",
+    "stamina": "B",
+    "precision": "D",
+    "development": "D"
+  },
+  {
+    "name": "Bastet",
+    "power": "E",
+    "speed": "E",
+    "range": "B",
+    "stamina": "A",
+    "precision": "E",
+    "development": "E"
+  },
+  {
+    "name": "Cream",
+    "power": "B",
+    "speed": "B",
+    "range": "D",
+    "stamina": "C",
+    "precision": "C",
+    "development": "D"
+  },
+  {
+    "name": "Death Thirteen",
+    "power": "C",
+    "speed": "C",
+    "range": "E",
+    "stamina": "B",
+    "precision": "D",
+    "development": "B"
+  },
+  {
+    "name": "Geb",
+    "power": "C",
+    "speed": "B",
+    "range": "A",
+    "stamina": "B",
+    "precision": "D",
+    "development": "D"
+  },
+  {
+    "name": "High Priestess",
+    "power": "C",
+    "speed": "B",
+    "range": "A",
+    "stamina": "A",
+    "precision": "D",
+    "development": "D"
+  },
+  {
+    "name": "Horus",
+    "power": "B",
+    "speed": "B",
+    "range": "D",
+    "stamina": "C",
+    "precision": "E",
+    "development": "C"
+  },
+  {
+    "name": "Judgement",
+    "power": "B",
+    "speed": "B",
+    "range": "C",
+    "stamina": "B",
+    "precision": "D",
+    "development": "D"
+  },
+  {
+    "name": "Khnum",
+    "power": "E",
+    "speed": "E",
+    "range": "E",
+    "stamina": "A",
+    "precision": "E",
+    "development": "E"
+  },
+  {
+    "name": "Osiris",
+    "power": "E",
+    "speed": "D",
+    "range": "D",
+    "stamina": "C",
+    "precision": "D",
+    "development": "D"
+  },
+  {
+    "name": "Sethan",
+    "power": "D",
+    "speed": "D",
+    "range": "E",
+    "stamina": "C",
+    "precision": "D",
+    "development": "D"
+  },
+  {
+    "name": "Tenore Sax",
+    "power": "E",
+    "speed": "E",
+    "range": "D",
+    "stamina": "A",
+    "precision": "E",
+    "development": "E"
+  },
+  {
+    "name": "Tohth",
+    "power": "E",
+    "speed": "E",
+    "range": "E",
+    "stamina": "A",
+    "precision": "E",
+    "development": "E"
+  },
+  {
+    "name": "Dark Blue Moon",
+    "power": "C",
+    "speed": "C",
+    "range": "C",
+    "stamina": "B",
+    "precision": "C",
+    "development": "D"
+  },
+  {
+    "name": "Emperor",
+    "power": "B",
+    "speed": "B",
+    "range": "B",
+    "stamina": "C",
+    "precision": "E",
+    "development": "E"
+  },
+  {
+    "name": "Ebony Devil",
+    "power": "D",
+    "speed": "D",
+    "range": "A",
+    "stamina": "B",
+    "precision": "D",
+    "development": "B"
+  },
+  {
+    "name": "Empress",
+    "power": "C",
+    "speed": "E",
+    "range": "A",
+    "stamina": "A",
+    "precision": "D",
+    "development": "D"
+  },
+  {
+    "name": "Hanged Man",
+    "power": "C",
+    "speed": "A",
+    "range": "A",
+    "stamina": "B",
+    "precision": "D",
+    "development": "D"
+  },
+  {
+    "name": "Hermit Purple",
+    "power": "D",
+    "speed": "C",
+    "range": "D",
+    "stamina": "A",
+    "precision": "D",
+    "development": "E"
+  },
+  {
+    "name": "Hierophant Green",
+    "power": "C",
+    "speed": "B",
+    "range": "A",
+    "stamina": "B",
+    "precision": "C",
+    "development": "D"
+  },
+  {
+    "name": "Justice",
+    "power": "D",
+    "speed": "E",
+    "range": "A",
+    "stamina": "A",
+    "precision": "E",
+    "development": "E"
+  },
+  {
+    "name": "Lovers",
+    "power": "E",
+    "speed": "D",
+    "range": "A",
+    "stamina": "A",
+    "precision": "D",
+    "development": "E"
+  },
+  {
+    "name": "Magician's Red",
+    "power": "B",
+    "speed": "B",
+    "range": "C",
+    "stamina": "B",
+    "precision": "C",
+    "development": "D"
+  },
+  {
+    "name": "Silver Chariot",
+    "power": "C",
+    "speed": "A",
+    "range": "C",
+    "stamina": "B",
+    "precision": "B",
+    "development": "C"
+  },
+  {
+    "name": "Star Platinum",
+    "power": "A",
+    "speed": "A",
+    "range": "C",
+    "stamina": "A",
+    "precision": "A",
+    "development": "A"
+  },
+  {
+    "name": "Strength",
+    "power": "B",
+    "speed": "D",
+    "range": "D",
+    "stamina": "A",
+    "precision": "E",
+    "development": "E"
+  },
+  {
+    "name": "Sun",
+    "power": "B",
+    "speed": "E",
+    "range": "A",
+    "stamina": "A",
+    "precision": "E",
+    "development": "E"
+  },
+  {
+    "name": "The Fool",
+    "power": "B",
+    "speed": "C",
+    "range": "D",
+    "stamina": "C",
+    "precision": "D",
+    "development": "C"
+  },
+  {
+    "name": "The World",
+    "power": "A",
+    "speed": "A",
+    "range": "C",
+    "stamina": "A",
+    "precision": "B",
+    "development": "B"
+  },
+  {
+    "name": "Tower of Gray",
+    "power": "E",
+    "speed": "A",
+    "range": "A",
+    "stamina": "C",
+    "precision": "E",
+    "development": "E"
+  },
+  {
+    "name": "Wheel of Fortune",
+    "power": "B",
+    "speed": "D",
+    "range": "D",
+    "stamina": "A",
+    "precision": "E",
+    "development": "D"
+  },
+  {
+    "name": "Yellow Temperance",
+    "power": "D",
+    "speed": "C",
+    "range": "E",
+    "stamina": "A",
+    "precision": "E",
+    "development": "D"
+  },
+  {
+    "name": "Achtung Baby",
+    "power": "E",
+    "speed": "E",
+    "range": "NULL",
+    "stamina": "A",
+    "precision": "E",
+    "development": "A"
+  },
+  {
+    "name": "Aqua Necklace",
+    "power": "C",
+    "speed": "C",
+    "range": "A",
+    "stamina": "A",
+    "precision": "C",
+    "development": "E"
+  },
+  {
+    "name": "Atom Heart Father",
+    "power": "E",
+    "speed": "E",
+    "range": "NULL",
+    "stamina": "A",
+    "precision": "E",
+    "development": "E"
+  },
+  {
+    "name": "Bad Company",
+    "power": "B",
+    "speed": "B",
+    "range": "C",
+    "stamina": "B",
+    "precision": "C",
+    "development": "C"
+  },
+  {
+    "name": "Boy II Man",
+    "power": "C",
+    "speed": "B",
+    "range": "B",
+    "stamina": "A",
+    "precision": "C",
+    "development": "C"
+  },
+  {
+    "name": "Cheap Trick",
+    "power": "E",
+    "speed": "E",
+    "range": "E",
+    "stamina": "A",
+    "precision": "E",
+    "development": "E"
+  },
+  {
+    "name": "Cinderella",
+    "power": "D",
+    "speed": "C",
+    "range": "C",
+    "stamina": "C",
+    "precision": "A",
+    "development": "C"
+  },
+  {
+    "name": "Crazy Diamond",
+    "power": "A",
+    "speed": "A",
+    "range": "D",
+    "stamina": "B",
+    "precision": "B",
+    "development": "C"
+  },
+  {
+    "name": "Enigma",
+    "power": "E",
+    "speed": "E",
+    "range": "C",
+    "stamina": "A",
+    "precision": "C",
+    "development": "C"
+  },
+  {
+    "name": "Earth Wind and Fire",
+    "power": "C",
+    "speed": "C",
+    "range": "NULL",
+    "stamina": "A",
+    "precision": "C",
+    "development": "C"
+  },
+  {
+    "name": "Harvest",
+    "power": "E",
+    "speed": "B",
+    "range": "A",
+    "stamina": "A",
+    "precision": "E",
+    "development": "C"
+  },
+  {
+    "name": "Heaven's Door",
+    "power": "D",
+    "speed": "B",
+    "range": "B",
+    "stamina": "B",
+    "precision": "C",
+    "development": "A"
+  },
+  {
+    "name": "Highway Star",
+    "power": "C",
+    "speed": "B",
+    "range": "A",
+    "stamina": "A",
+    "precision": "E",
+    "development": "C"
+  },
+  {
+    "name": "Killer Queen",
+    "power": "A",
+    "speed": "B",
+    "range": "D",
+    "stamina": "B",
+    "precision": "B",
+    "development": "A"
+  },
+  {
+    "name": "Sheer Heart Attack",
+    "power": "A",
+    "speed": "C",
+    "range": "A",
+    "stamina": "A",
+    "precision": "E",
+    "development": "A"
+  },
+  {
+    "name": "Bites the Dust",
+    "power": "B",
+    "speed": "B",
+    "range": "A",
+    "stamina": "A",
+    "precision": "D",
+    "development": "A"
+  },
+  {
+    "name": "Love Deluxe",
+    "power": "B",
+    "speed": "B",
+    "range": "C",
+    "stamina": "A",
+    "precision": "E",
+    "development": "B"
+  },
+  {
+    "name": "Pearl Jam",
+    "power": "E",
+    "speed": "C",
+    "range": "B",
+    "stamina": "A",
+    "precision": "E",
+    "development": "C"
+  },
+  {
+    "name": "Ratt",
+    "power": "B",
+    "speed": "C",
+    "range": "D",
+    "stamina": "B",
+    "precision": "E",
+    "development": "C"
+  },
+  {
+    "name": "Red Hot Chili Pepper",
+    "power": "A",
+    "speed": "A",
+    "range": "A",
+    "stamina": "A",
+    "precision": "C",
+    "development": "A"
+  },
+  {
+    "name": "Super Fly",
+    "power": "E",
+    "speed": "E",
+    "range": "N/A",
+    "stamina": "A",
+    "precision": "E",
+    "development": "E"
+  },
+  {
+    "name": "Surface",
+    "power": "B",
+    "speed": "B",
+    "range": "C",
+    "stamina": "B",
+    "precision": "C",
+    "development": "C"
+  },
+  {
+    "name": "The Lock",
+    "power": "E",
+    "speed": "E",
+    "range": "A",
+    "stamina": "A",
+    "precision": "E",
+    "development": "E"
+  },
+  {
+    "name": "The Hand",
+    "power": "B",
+    "speed": "B",
+    "range": "D",
+    "stamina": "C",
+    "precision": "C",
+    "development": "C"
+  },
+  {
+    "name": "Echoes (ACT1)",
+    "power": "E",
+    "speed": "E",
+    "range": "B",
+    "stamina": "B",
+    "precision": "C",
+    "development": "A"
+  },
+  {
+    "name": "Echoes (ACT2)",
+    "power": "C",
+    "speed": "D",
+    "range": "B",
+    "stamina": "B",
+    "precision": "C",
+    "development": "A"
+  },
+  {
+    "name": "Echoes (ACT3)",
+    "power": "B",
+    "speed": "B",
+    "range": "C",
+    "stamina": "B",
+    "precision": "C",
+    "development": "A"
+  },
+  {
+    "name": "Stray Cat",
+    "power": "B",
+    "speed": "E",
+    "range": "NULL",
+    "stamina": "A",
+    "precision": "E",
+    "development": "C"
+  },
+  {
+    "name": "Black Sabbath",
+    "power": "E※",
+    "speed": "A",
+    "range": "A",
+    "stamina": "A",
+    "precision": "E",
+    "development": "E"
+  },
+  {
+    "name": "Baby Face",
+    "power": "A",
+    "speed": "B",
+    "range": "A",
+    "stamina": "A",
+    "precision": "※",
+    "development": "※"
+  },
+  {
+    "name": "Gold Experience",
+    "power": "C",
+    "speed": "A",
+    "range": "C",
+    "stamina": "D",
+    "precision": "C",
+    "development": "A"
+  },
+  {
+    "name": "Sticky Fingers",
+    "power": "A",
+    "speed": "A",
+    "range": "C",
+    "stamina": "D",
+    "precision": "C",
+    "development": "D"
+  },
+  {
+    "name": "Metallica",
+    "power": "C",
+    "speed": "C",
+    "range": "C",
+    "stamina": "A",
+    "precision": "C",
+    "development": "C"
+  },
+  {
+    "name": "Purple Haze",
+    "power": "A",
+    "speed": "B",
+    "range": "C",
+    "stamina": "E",
+    "precision": "E",
+    "development": "B"
+  },
+  {
+    "name": "Moody Blues",
+    "power": "C",
+    "speed": "C",
+    "range": "A",
+    "stamina": "A",
+    "precision": "C",
+    "development": "C"
+  },
+  {
+    "name": "Sex Pistols",
+    "power": "E",
+    "speed": "C",
+    "range": "B",
+    "stamina": "A",
+    "precision": "A",
+    "development": "B"
+  },
+  {
+    "name": "The Grateful Dead",
+    "power": "B",
+    "speed": "E",
+    "range": "B",
+    "stamina": "A",
+    "precision": "E",
+    "development": "C"
+  },
+  {
+    "name": "Aerosmith",
+    "power": "B",
+    "speed": "B",
+    "range": "B",
+    "stamina": "C",
+    "precision": "E",
+    "development": "C"
+  },
+  {
+    "name": "Beach Boy",
+    "power": "C",
+    "speed": "B",
+    "range": "B",
+    "stamina": "C",
+    "precision": "C",
+    "development": "A"
+  },
+  {
+    "name": "Man in the Mirror",
+    "power": "C",
+    "speed": "C",
+    "range": "B",
+    "stamina": "D",
+    "precision": "C",
+    "development": "E"
+  },
+  {
+    "name": "Baby Face (GoGo)",
+    "power": "A",
+    "speed": "B",
+    "range": "A",
+    "stamina": "A",
+    "precision": "C",
+    "development": "C"
+  },
+  {
+    "name": "Chariot Requiem",
+    "power": "E",
+    "speed": "E",
+    "range": "A",
+    "stamina": "A",
+    "precision": "E",
+    "development": "A"
+  },
+  {
+    "name": "Clash",
+    "power": "D",
+    "speed": "A",
+    "range": "B",
+    "stamina": "A",
+    "precision": "A",
+    "development": "C"
+  },
+  {
+    "name": "Echoes (ACT3)",
+    "power": "A",
+    "speed": "C",
+    "range": "D",
+    "stamina": "C",
+    "precision": "C",
+    "development": "B"
+  },
+  {
+    "name": "Gold Experience Requiem",
+    "power": "NULL",
+    "speed": "NULL",
+    "range": "NULL",
+    "stamina": "NULL",
+    "precision": "NULL",
+    "development": "NULL"
+  },
+  {
+    "name": "Green Day",
+    "power": "A",
+    "speed": "C",
+    "range": "A",
+    "stamina": "A",
+    "precision": "E",
+    "development": "A"
+  },
+  {
+    "name": "King Crimson",
+    "power": "A",
+    "speed": "A",
+    "range": "E",
+    "stamina": "E",
+    "precision": "S",
+    "development": "S"
+  },
+  {
+    "name": "Kraft Work",
+    "power": "A",
+    "speed": "A",
+    "range": "E",
+    "stamina": "C",
+    "precision": "E",
+    "development": "E"
+  },
+  {
+    "name": "Little Feet",
+    "power": "D",
+    "speed": "B",
+    "range": "E",
+    "stamina": "A",
+    "precision": "D",
+    "development": "C"
+  },
+  {
+    "name": "Mr.President",
+    "power": "E",
+    "speed": "E",
+    "range": "E",
+    "stamina": "A",
+    "precision": "E",
+    "development": "E"
+  },
+  {
+    "name": "Notorious B.I.G",
+    "power": "A",
+    "speed": "INF",
+    "range": "INF",
+    "stamina": "INF",
+    "precision": "E",
+    "development": "A"
+  },
+  {
+    "name": "Oasis",
+    "power": "A",
+    "speed": "A",
+    "range": "B",
+    "stamina": "A",
+    "precision": "E",
+    "development": "C"
+  },
+  {
+    "name": "Rolling Stones",
+    "power": "NULL",
+    "speed": "B",
+    "range": "A",
+    "stamina": "A",
+    "precision": "E",
+    "development": "NULL"
+  },
+  {
+    "name": "Soft Machine",
+    "power": "A",
+    "speed": "C",
+    "range": "E",
+    "stamina": "A",
+    "precision": "D",
+    "development": "E"
+  },
+  {
+    "name": "Spice Girl",
+    "power": "A",
+    "speed": "A",
+    "range": "C",
+    "stamina": "B",
+    "precision": "D",
+    "development": "C"
+  },
+  {
+    "name": "Talking Head",
+    "power": "E",
+    "speed": "E",
+    "range": "B",
+    "stamina": "A",
+    "precision": "E",
+    "development": "E"
+  },
+  {
+    "name": "White Album",
+    "power": "A",
+    "speed": "C",
+    "range": "C",
+    "stamina": "A",
+    "precision": "E",
+    "development": "E"
+  },
+  {
+    "name": "Whitesnake",
+    "power": "S",
+    "speed": "D",
+    "range": "S",
+    "stamina": "A",
+    "precision": "S",
+    "development": "S"
+  },
+  {
+    "name": "C-Moon",
+    "power": "NULL",
+    "speed": "B",
+    "range": "B",
+    "stamina": "S",
+    "precision": "S",
+    "development": "S"
+  },
+  {
+    "name": "Jail House Lock",
+    "power": "NULL",
+    "speed": "C",
+    "range": "B",
+    "stamina": "A",
+    "precision": "NULL",
+    "development": "NULL"
+  },
+  {
+    "name": "Stone Free",
+    "power": "A",
+    "speed": "B",
+    "range": "C",
+    "stamina": "A",
+    "precision": "C",
+    "development": "A"
+  },
+  {
+    "name": "Goo Goo Dolls",
+    "power": "D",
+    "speed": "C",
+    "range": "B",
+    "stamina": "D",
+    "precision": "B",
+    "development": "B"
+  },
+  {
+    "name": "Under World",
+    "power": "NULL",
+    "speed": "C",
+    "range": "A",
+    "stamina": "C",
+    "precision": "NULL",
+    "development": "NULL"
+  },
+  {
+    "name": "Sky High",
+    "power": "NULL",
+    "speed": "NULL",
+    "range": "B",
+    "stamina": "C",
+    "precision": "NULL",
+    "development": "NULL"
+  },
+  {
+    "name": "Star Platinum",
+    "power": "A",
+    "speed": "A",
+    "range": "C",
+    "stamina": "A",
+    "precision": "A",
+    "development": "NULL"
+  },
+  {
+    "name": "Star Platinum: The World",
+    "power": "A",
+    "speed": "A",
+    "range": "C",
+    "stamina": "E",
+    "precision": "A",
+    "development": "C"
+  },
+  {
+    "name": "Bohemian Rhapsody",
+    "power": "NULL",
+    "speed": "NULL",
+    "range": "INF",
+    "stamina": "A",
+    "precision": "NULL",
+    "development": "NULL"
+  },
+  {
+    "name": "Burning Down the House",
+    "power": "NULL",
+    "speed": "NULL",
+    "range": "NULL",
+    "stamina": "NULL",
+    "precision": "NULL",
+    "development": "NULL"
+  },
+  {
+    "name": "Diver Down",
+    "power": "A",
+    "speed": "A",
+    "range": "E",
+    "stamina": "C",
+    "precision": "B",
+    "development": "B"
+  },
+  {
+    "name": "Dragon's Dream",
+    "power": "NULL",
+    "speed": "NULL",
+    "range": "NULL",
+    "stamina": "A",
+    "precision": "NULL",
+    "development": "NULL"
+  },
+  {
+    "name": "Foo Fighters",
+    "power": "B",
+    "speed": "A",
+    "range": "C",
+    "stamina": "A",
+    "precision": "C",
+    "development": "B"
+  },
+  {
+    "name": "Green, Green Grass of Home",
+    "power": "S",
+    "speed": "S",
+    "range": "S",
+    "stamina": "S",
+    "precision": "S",
+    "development": "S"
+  },
+  {
+    "name": "Highway to Hell",
+    "power": "C",
+    "speed": "C",
+    "range": "A",
+    "stamina": "C",
+    "precision": "C",
+    "development": "C"
+  },
+  {
+    "name": "Kiss",
+    "power": "A",
+    "speed": "A",
+    "range": "A",
+    "stamina": "A",
+    "precision": "C",
+    "development": "A"
+  },
+  {
+    "name": "Jumpin' Jack Flash",
+    "power": "B",
+    "speed": "C",
+    "range": "B",
+    "stamina": "A",
+    "precision": "D",
+    "development": "E"
+  },
+  {
+    "name": "Limp Bizkit",
+    "power": "NULL",
+    "speed": "B",
+    "range": "B",
+    "stamina": "A",
+    "precision": "C",
+    "development": "E"
+  },
+  {
+    "name": "Made in Heaven",
+    "power": "B",
+    "speed": "INF",
+    "range": "C",
+    "stamina": "A",
+    "precision": "C",
+    "development": "A"
+  },
+  {
+    "name": "Manhattan Transfer",
+    "power": "E",
+    "speed": "E",
+    "range": "A",
+    "stamina": "A",
+    "precision": "A",
+    "development": "C"
+  },
+  {
+    "name": "Marilyn Manson",
+    "power": "E",
+    "speed": "A",
+    "range": "A",
+    "stamina": "A",
+    "precision": "A",
+    "development": "C"
+  },
+  {
+    "name": "Planet Waves",
+    "power": "A",
+    "speed": "B",
+    "range": "A",
+    "stamina": "A",
+    "precision": "E",
+    "development": "E"
+  },
+  {
+    "name": "Survivor",
+    "power": "E",
+    "speed": "E",
+    "range": "E",
+    "stamina": "C",
+    "precision": "E",
+    "development": "E"
+  },
+  {
+    "name": "Weather Report",
+    "power": "A",
+    "speed": "B",
+    "range": "C",
+    "stamina": "A",
+    "precision": "E",
+    "development": "A"
+  },
+  {
+    "name": "Yo-Yo Ma",
+    "power": "C",
+    "speed": "D",
+    "range": "A",
+    "stamina": "A",
+    "precision": "D",
+    "development": "C"
+  },
+  {
+    "name": "20th Century Boy",
+    "power": "NULL",
+    "speed": "C",
+    "range": "NULL",
+    "stamina": "A",
+    "precision": "D",
+    "development": "C"
+  },
+  {
+    "name": "Ball Breaker",
+    "power": "A",
+    "speed": "A",
+    "range": "D",
+    "stamina": "B",
+    "precision": "C",
+    "development": "B"
+  },
+  {
+    "name": "Boku no Rhythm wo Kiitekure",
+    "power": "B",
+    "speed": "C",
+    "range": "C",
+    "stamina": "B",
+    "precision": "E",
+    "development": "C"
+  },
+  {
+    "name": "Catch the Rainbow",
+    "power": "C",
+    "speed": "C",
+    "range": "B",
+    "stamina": "B",
+    "precision": "D",
+    "development": "D"
+  },
+  {
+    "name": "Chocolate Disco",
+    "power": "NULL",
+    "speed": "C",
+    "range": "C",
+    "stamina": "B",
+    "precision": "A",
+    "development": "D"
+  },
+  {
+    "name": "Civil War",
+    "power": "NULL",
+    "speed": "C",
+    "range": "C",
+    "stamina": "B",
+    "precision": "C",
+    "development": "NULL"
+  },
+  {
+    "name": "Cream Starter",
+    "power": "D",
+    "speed": "C",
+    "range": "C",
+    "stamina": "A",
+    "precision": "E",
+    "development": "B"
+  },
+  {
+    "name": "Dirty Deeds Done Dirt Cheap",
+    "power": "A",
+    "speed": "A",
+    "range": "C",
+    "stamina": "A",
+    "precision": "A",
+    "development": "A"
+  },
+  {
+    "name": "D4C Love Train",
+    "power": "A",
+    "speed": "A",
+    "range": "C",
+    "stamina": "A",
+    "precision": "A",
+    "development": "C"
+  },
+  {
+    "name": "Hey Ya!",
+    "power": "E",
+    "speed": "E",
+    "range": "E",
+    "stamina": "B",
+    "precision": "E",
+    "development": "E"
+  },
+  {
+    "name": "In a Silent Way",
+    "power": "C",
+    "speed": "C",
+    "range": "D",
+    "stamina": "A",
+    "precision": "D",
+    "development": "B"
+  },
+  {
+    "name": "Mandom",
+    "power": "NULL",
+    "speed": "A",
+    "range": "NULL",
+    "stamina": "E",
+    "precision": "NULL",
+    "development": "C"
+  },
+  {
+    "name": "Oh! Lonesome Me",
+    "power": "E",
+    "speed": "C",
+    "range": "C",
+    "stamina": "B",
+    "precision": "C",
+    "development": "D"
+  },
+  {
+    "name": "Scary Monsters",
+    "power": "B",
+    "speed": "B",
+    "range": "D",
+    "stamina": "A",
+    "precision": "C",
+    "development": "B"
+  },
+  {
+    "name": "Sugar Mountain",
+    "power": "E",
+    "speed": "E",
+    "range": "E",
+    "stamina": "A",
+    "precision": "E",
+    "development": "E"
+  },
+  {
+    "name": "Tatoo You!",
+    "power": "NULL",
+    "speed": "E",
+    "range": "C",
+    "stamina": "B",
+    "precision": "E",
+    "development": "E"
+  },
+  {
+    "name": "Ticket to Ride",
+    "power": "E",
+    "speed": "E",
+    "range": "E",
+    "stamina": "C",
+    "precision": "E",
+    "development": "C"
+  },
+  {
+    "name": "Tomb of the Boom 1 2 3",
+    "power": "D",
+    "speed": "C",
+    "range": "C",
+    "stamina": "B",
+    "precision": "C",
+    "development": "C"
+  },
+  {
+    "name": "Tubular Bells",
+    "power": "D",
+    "speed": "D",
+    "range": "D",
+    "stamina": "A",
+    "precision": "E",
+    "development": "B"
+  },
+  {
+    "name": "Tusk ACT1",
+    "power": "E",
+    "speed": "E",
+    "range": "D",
+    "stamina": "B",
+    "precision": "E",
+    "development": "A"
+  },
+  {
+    "name": "Tusk ACT2",
+    "power": "D",
+    "speed": "D",
+    "range": "B",
+    "stamina": "C",
+    "precision": "C",
+    "development": "A"
+  },
+  {
+    "name": "Tusk ACT3",
+    "power": "D",
+    "speed": "D",
+    "range": "B",
+    "stamina": "D",
+    "precision": "C",
+    "development": "A"
+  },
+  {
+    "name": "Tusk ACT4",
+    "power": "A",
+    "speed": "B",
+    "range": "A",
+    "stamina": "A",
+    "precision": "B",
+    "development": "E"
+  },
+  {
+    "name": "Wired",
+    "power": "D",
+    "speed": "B",
+    "range": "B",
+    "stamina": "B",
+    "precision": "D",
+    "development": "D"
+  },
+  {
+    "name": "Born This Way",
+    "power": "C",
+    "speed": "B",
+    "range": "A",
+    "stamina": "A",
+    "precision": "E",
+    "development": "E"
+  },
+  {
+    "name": "California King Bed",
+    "power": "NULL",
+    "speed": "NULL",
+    "range": "E",
+    "stamina": "B",
+    "precision": "E",
+    "development": "E"
+  },
+  {
+    "name": "Fun Fun Fun",
+    "power": "E",
+    "speed": "C",
+    "range": "D",
+    "stamina": "A",
+    "precision": "E",
+    "development": "E"
+  },
+  {
+    "name": "Nut King Call",
+    "power": "C",
+    "speed": "D",
+    "range": "C",
+    "stamina": "A",
+    "precision": "E",
+    "development": "A"
+  },
+  {
+    "name": "Paisley Park",
+    "power": "NULL",
+    "speed": "NULL",
+    "range": "A",
+    "stamina": "A",
+    "precision": "D",
+    "development": "C"
+  },
+  {
+    "name": "Paper Moon King",
+    "power": "E",
+    "speed": "E",
+    "range": "C",
+    "stamina": "C",
+    "precision": "B",
+    "development": "E"
+  },
+  {
+    "name": "Soft & Wet",
+    "power": "C",
+    "speed": "B",
+    "range": "D",
+    "stamina": "B",
+    "precision": "C",
+    "development": "A"
+  },
+  {
+    "name": "Manic Depression",
+    "power": "C",
+    "speed": "A",
+    "range": "E",
+    "stamina": "B",
+    "precision": "B",
+    "development": "C"
+  },
+  {
+    "name": "Voodoo Child",
+    "power": "B",
+    "speed": "A",
+    "range": "E",
+    "stamina": "E",
+    "precision": "B",
+    "development": "B"
+  },
+  {
+    "name": "All Along Watchtower",
+    "power": "C",
+    "speed": "B",
+    "range": "A",
+    "stamina": "A",
+    "precision": "A",
+    "development": "E"
+  },
+  {
+    "name": "Dolly Dagger",
+    "power": "A",
+    "speed": "A",
+    "range": "C",
+    "stamina": "A",
+    "precision": "B",
+    "development": "C"
+  },
+  {
+    "name": "Nightbird Flying",
+    "power": "E",
+    "speed": "A",
+    "range": "A",
+    "stamina": "A",
+    "precision": "E",
+    "development": "E"
+  },
+  {
+    "name": "Purple Haze Distortion",
+    "power": "A",
+    "speed": "B",
+    "range": "E",
+    "stamina": "E",
+    "precision": "C",
+    "development": "S"
+  },
+  {
+    "name": "Rainy Day Dream Away",
+    "power": "E",
+    "speed": "B",
+    "range": "A",
+    "stamina": "A",
+    "precision": "E",
+    "development": "E"
+  },
+  {
+    "name": "Remote Romance",
+    "power": "E",
+    "speed": "D",
+    "range": "INF",
+    "stamina": "B",
+    "precision": "C",
+    "development": "E"
+  },
+  {
+    "name": "House of Holy",
+    "power": "E",
+    "speed": "B",
+    "range": "C",
+    "stamina": "A",
+    "precision": "D",
+    "development": "D"
+  }
+]
