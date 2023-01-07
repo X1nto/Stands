@@ -7,7 +7,7 @@ import { defineConfig } from 'vite';
 export default defineConfig(({ mode }) => {
   return {
     plugins: [
-      solid({ ssr: false, adapter: mode === 'production' ? vercel() : node() }),
+      solid({ ssr: true, adapter: mode === 'production' ? vercel() : node() }),
       solidSvg({ defaultAsComponent: true }),
     ],
     build: {
