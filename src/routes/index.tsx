@@ -1,4 +1,4 @@
-import { For, Match, Switch } from 'solid-js';
+import { createSignal, For, Match, Show, Switch } from 'solid-js';
 import {
   createRouteData,
   refetchRouteData,
@@ -90,6 +90,7 @@ export function routeData({ location }: RouteDataArgs) {
 export default function Home() {
   const data = useRouteData<typeof routeData>();
   const [params, setParams] = useSearchParams();
+  const [showFilters, setShowFilters] = createSignal(false);
   return (
     <main class={styles['page']}>
       <div class={styles['input-header']}>
@@ -104,26 +105,38 @@ export default function Home() {
           />
           <div
             class={styles['input-search-button']}
+            title="Advanced filters"
+            onClick={() => setShowFilters((prev) => !prev)}
+          >
+            <img
+              src="expand.svg"
+              style={showFilters() ? 'rotate: 180deg' : ''}
+            />
+          </div>
+          <div
+            class={styles['input-search-button']}
+            title="Search"
             onClick={() => refetchRouteData()}
           >
             <img src="search.svg" />
           </div>
         </div>
-
-        <div class={styles['stand-stat-dropdown-list']}>
-          <For each={dropdowns}>
-            {(stat) => (
-              <Dropdown
-                label={stat.label}
-                items={dropdownEntries}
-                default={params[stat.value]}
-                onChange={(value) => {
-                  setParams({ [stat.value]: value });
-                }}
-              />
-            )}
-          </For>
-        </div>
+        <Show when={showFilters()}>
+          <div class={styles['stand-stat-dropdown-list']}>
+            <For each={dropdowns}>
+              {(stat) => (
+                <Dropdown
+                  label={stat.label}
+                  items={dropdownEntries}
+                  default={params[stat.value]}
+                  onChange={(value) => {
+                    setParams({ [stat.value]: value });
+                  }}
+                />
+              )}
+            </For>
+          </div>
+        </Show>
       </div>
       <div class={styles['stand-list']}>
         <Switch>
