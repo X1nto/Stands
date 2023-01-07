@@ -61,12 +61,12 @@ const dropdownEntries = [
     value: 'E',
   },
   {
-    label: 'N/A',
-    value: 'NONE',
-  },
-  {
     label: '∅',
     value: 'NULL',
+  },
+  {
+    label: 'N/A',
+    value: 'NONE',
   },
 ] as const;
 
