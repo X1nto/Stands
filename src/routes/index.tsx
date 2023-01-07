@@ -1,13 +1,7 @@
-import { createSignal, For, Match, Show, Switch } from 'solid-js';
-import {
-  createRouteData,
-  refetchRouteData,
-  RouteDataArgs,
-  useRouteData,
-  useSearchParams,
-} from 'solid-start';
+import {createSignal, For, Match, Show, Switch} from 'solid-js';
+import {createRouteData, refetchRouteData, RouteDataArgs, useRouteData, useSearchParams,} from 'solid-start';
 import Dropdown from '~/components/Dropdown';
-import { Stand } from '~/db/stands';
+import {Stand} from '~/db/stands';
 import styles from './index.module.css';
 
 const dropdowns = [
@@ -76,7 +70,7 @@ const dropdownEntries = [
   },
 ] as const;
 
-export function routeData({ location }: RouteDataArgs) {
+export function routeData({location}: RouteDataArgs) {
   return createRouteData(async () => {
     let url = '/api/stands?';
     for (const key in location.query) {
@@ -100,7 +94,7 @@ export default function Home() {
             type="text"
             placeholder="Search"
             onInput={(e) => {
-              setParams({ name: (e.target as HTMLInputElement).value });
+              setParams({name: (e.target as HTMLInputElement).value});
             }}
           />
           <div
@@ -118,7 +112,7 @@ export default function Home() {
             title="Search"
             onClick={() => refetchRouteData()}
           >
-            <img src="search.svg" />
+            <img src="search.svg"/>
           </div>
         </div>
         <Show when={showFilters()}>
@@ -130,7 +124,7 @@ export default function Home() {
                   items={dropdownEntries}
                   default={params[stat.value]}
                   onChange={(value) => {
-                    setParams({ [stat.value]: value });
+                    setParams({[stat.value]: value});
                   }}
                 />
               )}

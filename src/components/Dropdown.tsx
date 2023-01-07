@@ -1,4 +1,4 @@
-import { createSignal, For, onCleanup, Show } from 'solid-js';
+import {createSignal, For, onCleanup, Show} from 'solid-js';
 import styles from './Dropdown.module.css';
 
 export interface DropdownProps {
@@ -30,7 +30,7 @@ export default function Dropdown(props: DropdownProps) {
           <b>{props.label}: </b>
           <p>{currentItem()?.label}</p>
         </div>
-        <img src="dropdown-arrow.svg" />
+        <img src="dropdown-arrow.svg"/>
       </div>
       <Show when={show()}>
         <ul class={styles.popup}>

@@ -1,12 +1,6 @@
-import { APIEvent, json } from 'solid-start';
-import {
-  findStands,
-  isStatValueValid,
-  StandFindPredicate,
-  standStats,
-  StandStatValue,
-} from '~/db/stands';
-import { parseQuery } from '~/util/query';
+import {APIEvent, json} from 'solid-start';
+import {findStands, isStatValueValid, StandFindPredicate, standStats, StandStatValue,} from '~/db/stands';
+import {parseQuery} from '~/util/query';
 
 export async function GET(event: APIEvent) {
   const query = parseQuery(event.request.url);
@@ -27,7 +21,7 @@ export async function GET(event: APIEvent) {
     return queryStat;
   };
 
-  let predicate: StandFindPredicate = { name: query.get('name') };
+  let predicate: StandFindPredicate = {name: query.get('name')};
 
   for (const stat of standStats) {
     const sor = statOrResponse(stat);

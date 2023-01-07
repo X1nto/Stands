@@ -50,15 +50,7 @@ export interface StandFindPredicate {
   development?: StandStatValue | null;
 }
 
-export async function findStands({
-  name,
-  power,
-  speed,
-  range,
-  stamina,
-  precision,
-  development,
-}: StandFindPredicate) {
+export async function findStands({development, name, power, precision, range, speed, stamina}: StandFindPredicate) {
   const stands = await getStands();
   return stands.filter((stand) => {
     return (
