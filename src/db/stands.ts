@@ -26,7 +26,7 @@ export const standStats = [
 export type StandStat = typeof standStats[number];
 
 export function isStatValueValid(stat: string): stat is StandStatValue {
-  return (standStatValues as readonly string[]).includes(stat);
+  return standStatValues.includes(stat as StandStatValue);
 }
 
 export interface Stand {
