@@ -94,7 +94,7 @@ export default function Home() {
             type="text"
             placeholder="Search"
             onInput={(e) => {
-              setParams({name: (e.target as HTMLInputElement).value});
+              setParams({name: e.currentTarget.value});
             }}
           />
           <div
