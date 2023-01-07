@@ -1,3 +1,4 @@
+// @ts-ignore
 import standsDb from './stands.json';
 
 const stands = standsDb as Stand[];
